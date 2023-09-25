@@ -1,6 +1,9 @@
-E:/codes/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/codes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-E:/codes/cmake-build-debug/exercise-1/CMakeFiles/pun.dir
-E:/codes/cmake-build-debug/exercise-1/CMakeFiles/dweight.dir
-E:/codes/cmake-build-debug/exercise-1/CMakeFiles/edit_cache.dir
-E:/codes/cmake-build-debug/exercise-1/CMakeFiles/rebuild_cache.dir
+E:/codes/cpl-exercise/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/codes/cpl-exercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/codes/cpl-exercise/cmake-build-debug/exercise-1/CMakeFiles/pun.dir
+E:/codes/cpl-exercise/cmake-build-debug/exercise-1/CMakeFiles/dweight.dir
+E:/codes/cpl-exercise/cmake-build-debug/exercise-1/CMakeFiles/edit_cache.dir
+E:/codes/cpl-exercise/cmake-build-debug/exercise-1/CMakeFiles/rebuild_cache.dir
+E:/codes/cpl-exercise/cmake-build-debug/exercise-2/CMakeFiles/game.dir
+E:/codes/cpl-exercise/cmake-build-debug/exercise-2/CMakeFiles/edit_cache.dir
+E:/codes/cpl-exercise/cmake-build-debug/exercise-2/CMakeFiles/rebuild_cache.dir

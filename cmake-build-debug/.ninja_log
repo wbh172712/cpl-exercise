@@ -1,7 +1,10 @@
 # ninja log v5
-0	372	7159713086178103	CMakeFiles/pun.dir/pun.c.obj	4167028eb35cfbd4
 373	535	7159713087779597	pun.exe	44ad66ff3f25423d
-0	393	7159715489902099	exercise-1/CMakeFiles/pun.dir/pun.c.obj	a18495c08faf3c44
-393	544	7159715491380114	exercise-1/pun.exe	7c7e6e71da742379
+0	406	7171874189507484	exercise-1/CMakeFiles/pun.dir/pun.c.obj	b92a6ebdb217b1b7
+407	593	7171874191324499	exercise-1/pun.exe	d598448fa3ddc20b
 0	375	7159730387624380	exercise-1/CMakeFiles/dweight.dir/dweight.c.obj	89be2bbe88bf28ff
 375	532	7159730389151328	exercise-1/dweight.exe	58056b67c299716c
+0	421	7171873742234921	exercise-2/CMakeFiles/game.dir/game.c.obj	16c75614f7182629
+421	602	7171873744013194	exercise-2/game.exe	6efab88716fa1030
+1	412	7173262114599863	exercise-2/CMakeFiles/game.dir/game.c.obj	be26e22581c01d4e
+412	569	7173262116148086	exercise-2/game.exe	6efab88716fa1030

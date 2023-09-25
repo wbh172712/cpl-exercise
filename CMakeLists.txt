@@ -4,4 +4,4 @@ project(codes C)
 set(CMAKE_C_STANDARD 11)
 
 add_subdirectory(exercise-1)
-
+add_subdirectory(exercise-2)

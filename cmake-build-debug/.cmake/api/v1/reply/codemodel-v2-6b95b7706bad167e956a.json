@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -31,6 +32,21 @@
 					"targetIndexes" : 
 					[
 						0,
+						2
+					]
+				},
+				{
+					"build" : "exercise-2",
+					"jsonFile" : "directory-exercise-2-Debug-dcca4b89e2d81a499a30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exercise-2",
+					"targetIndexes" : 
+					[
 						1
 					]
 				}
@@ -42,13 +58,15 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "codes",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -59,6 +77,13 @@
 					"id" : "dweight::@db7cedec6a89411ad8fc",
 					"jsonFile" : "target-dweight-Debug-36be5819d19587d3ed20.json",
 					"name" : "dweight",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "game::@11247e49bc2059e6dcdc",
+					"jsonFile" : "target-game-Debug-474517deb9cfe6c26a9f.json",
+					"name" : "game",
 					"projectIndex" : 0
 				},
 				{
@@ -74,8 +99,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/codes/cmake-build-debug",
-		"source" : "E:/codes"
+		"build" : "E:/codes/cpl-exercise/cmake-build-debug",
+		"source" : "E:/codes/cpl-exercise"
 	},
 	"version" : 
 	{

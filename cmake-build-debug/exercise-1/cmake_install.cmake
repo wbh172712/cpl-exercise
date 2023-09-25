@@ -1,4 +1,4 @@
-# Install script for directory: E:/codes/exercise-1
+# Install script for directory: E:/codes/cpl-exercise/exercise-1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "E:/CLion 2023.2.1/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "E:/software/CLion 2023.2.2/bin/mingw/bin/objdump.exe")
 endif()
 
