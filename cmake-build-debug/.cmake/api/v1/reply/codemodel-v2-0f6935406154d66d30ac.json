@@ -9,7 +9,9 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -32,7 +34,7 @@
 					"targetIndexes" : 
 					[
 						0,
-						2
+						4
 					]
 				},
 				{
@@ -47,6 +49,37 @@
 					"source" : "exercise-2",
 					"targetIndexes" : 
 					[
+						2,
+						5
+					]
+				},
+				{
+					"build" : "num",
+					"jsonFile" : "directory-num-Debug-385c5c523d9ac7025104.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "num",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "extra",
+					"jsonFile" : "directory-extra-Debug-a8c426308c00640054ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extra",
+					"targetIndexes" : 
+					[
 						1
 					]
 				}
@@ -59,14 +92,19 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					],
 					"name" : "codes",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -80,6 +118,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 4,
+					"id" : "extra-1::@fd08edcdee322cedcc5e",
+					"jsonFile" : "target-extra-1-Debug-d3d78437cd1efde15b53.json",
+					"name" : "extra-1",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 2,
 					"id" : "game::@11247e49bc2059e6dcdc",
 					"jsonFile" : "target-game-Debug-474517deb9cfe6c26a9f.json",
@@ -87,10 +132,24 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 3,
+					"id" : "num::@5fa62d7b11cd51c00fad",
+					"jsonFile" : "target-num-Debug-1ce977e80cef89e65ce1.json",
+					"name" : "num",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "pun::@db7cedec6a89411ad8fc",
 					"jsonFile" : "target-pun-Debug-dfeed68a0a82703b811b.json",
 					"name" : "pun",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "up-or-down::@11247e49bc2059e6dcdc",
+					"jsonFile" : "target-up-or-down-Debug-079a41cfca908f582e83.json",
+					"name" : "up-or-down",
 					"projectIndex" : 0
 				}
 			]

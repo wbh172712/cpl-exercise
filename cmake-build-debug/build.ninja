@@ -82,8 +82,6 @@ build exercise-1/CMakeFiles/pun.dir/pun.c.obj: C_COMPILER__pun_unscanned_Debug E
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = exercise-1\CMakeFiles\pun.dir
   OBJECT_FILE_DIR = exercise-1\CMakeFiles\pun.dir
-  TARGET_COMPILE_PDB = exercise-1\CMakeFiles\pun.dir\
-  TARGET_PDB = exercise-1\pun.pdb
 
 
 # =============================================================================
@@ -99,10 +97,9 @@ build exercise-1/pun.exe: C_EXECUTABLE_LINKER__pun_Debug exercise-1/CMakeFiles/p
   OBJECT_DIR = exercise-1\CMakeFiles\pun.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = exercise-1\CMakeFiles\pun.dir\
   TARGET_FILE = exercise-1\pun.exe
   TARGET_IMPLIB = exercise-1\libpun.dll.a
-  TARGET_PDB = exercise-1\pun.pdb
+  TARGET_PDB = pun.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target dweight
@@ -118,8 +115,6 @@ build exercise-1/CMakeFiles/dweight.dir/dweight.c.obj: C_COMPILER__dweight_unsca
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = exercise-1\CMakeFiles\dweight.dir
   OBJECT_FILE_DIR = exercise-1\CMakeFiles\dweight.dir
-  TARGET_COMPILE_PDB = exercise-1\CMakeFiles\dweight.dir\
-  TARGET_PDB = exercise-1\dweight.pdb
 
 
 # =============================================================================
@@ -135,10 +130,9 @@ build exercise-1/dweight.exe: C_EXECUTABLE_LINKER__dweight_Debug exercise-1/CMak
   OBJECT_DIR = exercise-1\CMakeFiles\dweight.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = exercise-1\CMakeFiles\dweight.dir\
   TARGET_FILE = exercise-1\dweight.exe
   TARGET_IMPLIB = exercise-1\libdweight.dll.a
-  TARGET_PDB = exercise-1\dweight.pdb
+  TARGET_PDB = dweight.exe.dbg
 
 
 #############################################
@@ -182,8 +176,6 @@ build exercise-2/CMakeFiles/game.dir/game.c.obj: C_COMPILER__game_unscanned_Debu
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = exercise-2\CMakeFiles\game.dir
   OBJECT_FILE_DIR = exercise-2\CMakeFiles\game.dir
-  TARGET_COMPILE_PDB = exercise-2\CMakeFiles\game.dir\
-  TARGET_PDB = exercise-2\game.pdb
 
 
 # =============================================================================
@@ -199,10 +191,42 @@ build exercise-2/game.exe: C_EXECUTABLE_LINKER__game_Debug exercise-2/CMakeFiles
   OBJECT_DIR = exercise-2\CMakeFiles\game.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = exercise-2\CMakeFiles\game.dir\
   TARGET_FILE = exercise-2\game.exe
   TARGET_IMPLIB = exercise-2\libgame.dll.a
-  TARGET_PDB = exercise-2\game.pdb
+  TARGET_PDB = game.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target up-or-down
+
+
+#############################################
+# Order-only phony target for up-or-down
+
+build cmake_object_order_depends_target_up-or-down: phony || exercise-2/CMakeFiles/up-or-down.dir
+
+build exercise-2/CMakeFiles/up-or-down.dir/up-or-down.c.obj: C_COMPILER__up-or-down_unscanned_Debug E$:/codes/cpl-exercise/exercise-2/up-or-down.c || cmake_object_order_depends_target_up-or-down
+  DEP_FILE = exercise-2\CMakeFiles\up-or-down.dir\up-or-down.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = exercise-2\CMakeFiles\up-or-down.dir
+  OBJECT_FILE_DIR = exercise-2\CMakeFiles\up-or-down.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target up-or-down
+
+
+#############################################
+# Link the executable exercise-2\up-or-down.exe
+
+build exercise-2/up-or-down.exe: C_EXECUTABLE_LINKER__up-or-down_Debug exercise-2/CMakeFiles/up-or-down.dir/up-or-down.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = exercise-2\CMakeFiles\up-or-down.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exercise-2\up-or-down.exe
+  TARGET_IMPLIB = exercise-2\libup-or-down.dll.a
+  TARGET_PDB = up-or-down.exe.dbg
 
 
 #############################################
@@ -228,19 +252,153 @@ build exercise-2/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build exercise-2/rebuild_cache: phony exercise-2/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/codes/cpl-exercise/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target num
+
+
+#############################################
+# Order-only phony target for num
+
+build cmake_object_order_depends_target_num: phony || num/CMakeFiles/num.dir
+
+build num/CMakeFiles/num.dir/num.c.obj: C_COMPILER__num_unscanned_Debug E$:/codes/cpl-exercise/num/num.c || cmake_object_order_depends_target_num
+  DEP_FILE = num\CMakeFiles\num.dir\num.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = num\CMakeFiles\num.dir
+  OBJECT_FILE_DIR = num\CMakeFiles\num.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target num
+
+
+#############################################
+# Link the executable num\num.exe
+
+build num/num.exe: C_EXECUTABLE_LINKER__num_Debug num/CMakeFiles/num.dir/num.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = num\CMakeFiles\num.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = num\num.exe
+  TARGET_IMPLIB = num\libnum.dll.a
+  TARGET_PDB = num.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build num/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-exercise\cmake-build-debug\num && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build num/edit_cache: phony num/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build num/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-exercise\cmake-build-debug\num && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\codes\cpl-exercise -BE:\codes\cpl-exercise\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build num/rebuild_cache: phony num/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/codes/cpl-exercise/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target extra-1
+
+
+#############################################
+# Order-only phony target for extra-1
+
+build cmake_object_order_depends_target_extra-1: phony || extra/CMakeFiles/extra-1.dir
+
+build extra/CMakeFiles/extra-1.dir/extra-1.c.obj: C_COMPILER__extra-1_unscanned_Debug E$:/codes/cpl-exercise/extra/extra-1.c || cmake_object_order_depends_target_extra-1
+  DEP_FILE = extra\CMakeFiles\extra-1.dir\extra-1.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = extra\CMakeFiles\extra-1.dir
+  OBJECT_FILE_DIR = extra\CMakeFiles\extra-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extra-1
+
+
+#############################################
+# Link the executable extra\extra-1.exe
+
+build extra/extra-1.exe: C_EXECUTABLE_LINKER__extra-1_Debug extra/CMakeFiles/extra-1.dir/extra-1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = extra\CMakeFiles\extra-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = extra\extra-1.exe
+  TARGET_IMPLIB = extra\libextra-1.dll.a
+  TARGET_PDB = extra-1.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build extra/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-exercise\cmake-build-debug\extra && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build extra/edit_cache: phony extra/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build extra/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-exercise\cmake-build-debug\extra && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\codes\cpl-exercise -BE:\codes\cpl-exercise\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build extra/rebuild_cache: phony extra/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build dweight: phony exercise-1/dweight.exe
 
 build dweight.exe: phony exercise-1/dweight.exe
 
+build extra-1: phony extra/extra-1.exe
+
+build extra-1.exe: phony extra/extra-1.exe
+
 build game: phony exercise-2/game.exe
 
 build game.exe: phony exercise-2/game.exe
 
+build num: phony num/num.exe
+
+build num.exe: phony num/num.exe
+
 build pun: phony exercise-1/pun.exe
 
 build pun.exe: phony exercise-1/pun.exe
+
+build up-or-down: phony exercise-2/up-or-down.exe
+
+build up-or-down.exe: phony exercise-2/up-or-down.exe
 
 # =============================================================================
 # Folder targets.
@@ -250,7 +408,7 @@ build pun.exe: phony exercise-1/pun.exe
 #############################################
 # Folder: E:/codes/cpl-exercise/cmake-build-debug
 
-build all: phony exercise-1/all exercise-2/all
+build all: phony exercise-1/all exercise-2/all num/all extra/all
 
 # =============================================================================
 
@@ -264,7 +422,21 @@ build exercise-1/all: phony exercise-1/pun.exe exercise-1/dweight.exe
 #############################################
 # Folder: E:/codes/cpl-exercise/cmake-build-debug/exercise-2
 
-build exercise-2/all: phony exercise-2/game.exe
+build exercise-2/all: phony exercise-2/game.exe exercise-2/up-or-down.exe
+
+# =============================================================================
+
+#############################################
+# Folder: E:/codes/cpl-exercise/cmake-build-debug/extra
+
+build extra/all: phony extra/extra-1.exe
+
+# =============================================================================
+
+#############################################
+# Folder: E:/codes/cpl-exercise/cmake-build-debug/num
+
+build num/all: phony num/num.exe
 
 # =============================================================================
 # Built-in targets
@@ -273,14 +445,14 @@ build exercise-2/all: phony exercise-2/game.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-exercise/CMakeLists.txt E$:/codes/cpl-exercise/exercise-1/CMakeLists.txt E$:/codes/cpl-exercise/exercise-2/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCompilerIdDetection.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineRCCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCCompiler.cmake.in E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystem.cmake.in E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCompilerCommon.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestRCCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ADSP-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ARMCC-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ARMClang-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/AppleClang-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Borland-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Bruce-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompilerInternal.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Compaq-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Cray-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Embarcadero-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Fujitsu-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-FindBinUtils.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/HP-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/LCC-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/PGI-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/PathScale-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SCO-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SDCC-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SunPro-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/TI-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Tasking-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Watcom-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XL-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XLClang-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/zOS-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-exercise/CMakeLists.txt E$:/codes/cpl-exercise/exercise-1/CMakeLists.txt E$:/codes/cpl-exercise/exercise-2/CMakeLists.txt E$:/codes/cpl-exercise/extra/CMakeLists.txt E$:/codes/cpl-exercise/num/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-exercise/CMakeLists.txt E$:/codes/cpl-exercise/exercise-1/CMakeLists.txt E$:/codes/cpl-exercise/exercise-2/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCompilerIdDetection.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineRCCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCCompiler.cmake.in E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystem.cmake.in E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCompilerCommon.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestRCCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ADSP-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ARMCC-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ARMClang-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/AppleClang-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Borland-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Bruce-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompilerInternal.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Compaq-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Cray-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Embarcadero-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Fujitsu-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-FindBinUtils.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/HP-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/LCC-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/PGI-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/PathScale-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SCO-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SDCC-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SunPro-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/TI-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Tasking-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Watcom-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XL-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XLClang-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/zOS-C-DetermineCompiler.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-exercise/CMakeLists.txt E$:/codes/cpl-exercise/exercise-1/CMakeLists.txt E$:/codes/cpl-exercise/exercise-2/CMakeLists.txt E$:/codes/cpl-exercise/extra/CMakeLists.txt E$:/codes/cpl-exercise/num/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

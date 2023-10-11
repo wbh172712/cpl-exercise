@@ -5,5 +5,12 @@ E:/codes/cpl-exercise/cmake-build-debug/exercise-1/CMakeFiles/dweight.dir
 E:/codes/cpl-exercise/cmake-build-debug/exercise-1/CMakeFiles/edit_cache.dir
 E:/codes/cpl-exercise/cmake-build-debug/exercise-1/CMakeFiles/rebuild_cache.dir
 E:/codes/cpl-exercise/cmake-build-debug/exercise-2/CMakeFiles/game.dir
+E:/codes/cpl-exercise/cmake-build-debug/exercise-2/CMakeFiles/up-or-down.dir
 E:/codes/cpl-exercise/cmake-build-debug/exercise-2/CMakeFiles/edit_cache.dir
 E:/codes/cpl-exercise/cmake-build-debug/exercise-2/CMakeFiles/rebuild_cache.dir
+E:/codes/cpl-exercise/cmake-build-debug/num/CMakeFiles/num.dir
+E:/codes/cpl-exercise/cmake-build-debug/num/CMakeFiles/edit_cache.dir
+E:/codes/cpl-exercise/cmake-build-debug/num/CMakeFiles/rebuild_cache.dir
+E:/codes/cpl-exercise/cmake-build-debug/extra/CMakeFiles/extra-1.dir
+E:/codes/cpl-exercise/cmake-build-debug/extra/CMakeFiles/edit_cache.dir
+E:/codes/cpl-exercise/cmake-build-debug/extra/CMakeFiles/rebuild_cache.dir
