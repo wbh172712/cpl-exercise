@@ -1,1 +1,5 @@
 add_executable(extra-1 extra-1.c)
+add_executable(extra-2 extra-2.c)
+add_executable(extra-3 extra-3.c)
+add_executable(extra-4 extra-4.c)
+add_executable(extra-5 extra-5.c)

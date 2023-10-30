@@ -1,0 +1,8 @@
+add_executable(single single.c)
+add_executable(factorial factorial.c)
+add_executable(b-ternary-2 b-ternary-2.c)
+add_executable(jojo jojo.c)
+add_executable(quick-sort quick-sort.c)
+add_executable(decimal decimal.c)
+add_executable(tictactoe tictactoe.c)
+add_executable(Bye-JonaBell Bye-JonaBell.c)

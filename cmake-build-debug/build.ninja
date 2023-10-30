@@ -257,6 +257,67 @@ build exercise-2/rebuild_cache: phony exercise-2/CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
+# Object build statements for EXECUTABLE target array-2
+
+
+#############################################
+# Order-only phony target for array-2
+
+build cmake_object_order_depends_target_array-2: phony || exercise-3/CMakeFiles/array-2.dir
+
+build exercise-3/CMakeFiles/array-2.dir/array-2.c.obj: C_COMPILER__array-2_unscanned_Debug E$:/codes/cpl-exercise/exercise-3/array-2.c || cmake_object_order_depends_target_array-2
+  DEP_FILE = exercise-3\CMakeFiles\array-2.dir\array-2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = exercise-3\CMakeFiles\array-2.dir
+  OBJECT_FILE_DIR = exercise-3\CMakeFiles\array-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target array-2
+
+
+#############################################
+# Link the executable exercise-3\array-2.exe
+
+build exercise-3/array-2.exe: C_EXECUTABLE_LINKER__array-2_Debug exercise-3/CMakeFiles/array-2.dir/array-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = exercise-3\CMakeFiles\array-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exercise-3\array-2.exe
+  TARGET_IMPLIB = exercise-3\libarray-2.dll.a
+  TARGET_PDB = array-2.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build exercise-3/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-exercise\cmake-build-debug\exercise-3 && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build exercise-3/edit_cache: phony exercise-3/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build exercise-3/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-exercise\cmake-build-debug\exercise-3 && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\codes\cpl-exercise -BE:\codes\cpl-exercise\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build exercise-3/rebuild_cache: phony exercise-3/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/codes/cpl-exercise/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
 # Object build statements for EXECUTABLE target num
 
 
@@ -350,6 +411,138 @@ build extra/extra-1.exe: C_EXECUTABLE_LINKER__extra-1_Debug extra/CMakeFiles/ext
   TARGET_IMPLIB = extra\libextra-1.dll.a
   TARGET_PDB = extra-1.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target extra-2
+
+
+#############################################
+# Order-only phony target for extra-2
+
+build cmake_object_order_depends_target_extra-2: phony || extra/CMakeFiles/extra-2.dir
+
+build extra/CMakeFiles/extra-2.dir/extra-2.c.obj: C_COMPILER__extra-2_unscanned_Debug E$:/codes/cpl-exercise/extra/extra-2.c || cmake_object_order_depends_target_extra-2
+  DEP_FILE = extra\CMakeFiles\extra-2.dir\extra-2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = extra\CMakeFiles\extra-2.dir
+  OBJECT_FILE_DIR = extra\CMakeFiles\extra-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extra-2
+
+
+#############################################
+# Link the executable extra\extra-2.exe
+
+build extra/extra-2.exe: C_EXECUTABLE_LINKER__extra-2_Debug extra/CMakeFiles/extra-2.dir/extra-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = extra\CMakeFiles\extra-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = extra\extra-2.exe
+  TARGET_IMPLIB = extra\libextra-2.dll.a
+  TARGET_PDB = extra-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target extra-3
+
+
+#############################################
+# Order-only phony target for extra-3
+
+build cmake_object_order_depends_target_extra-3: phony || extra/CMakeFiles/extra-3.dir
+
+build extra/CMakeFiles/extra-3.dir/extra-3.c.obj: C_COMPILER__extra-3_unscanned_Debug E$:/codes/cpl-exercise/extra/extra-3.c || cmake_object_order_depends_target_extra-3
+  DEP_FILE = extra\CMakeFiles\extra-3.dir\extra-3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = extra\CMakeFiles\extra-3.dir
+  OBJECT_FILE_DIR = extra\CMakeFiles\extra-3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extra-3
+
+
+#############################################
+# Link the executable extra\extra-3.exe
+
+build extra/extra-3.exe: C_EXECUTABLE_LINKER__extra-3_Debug extra/CMakeFiles/extra-3.dir/extra-3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = extra\CMakeFiles\extra-3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = extra\extra-3.exe
+  TARGET_IMPLIB = extra\libextra-3.dll.a
+  TARGET_PDB = extra-3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target extra-4
+
+
+#############################################
+# Order-only phony target for extra-4
+
+build cmake_object_order_depends_target_extra-4: phony || extra/CMakeFiles/extra-4.dir
+
+build extra/CMakeFiles/extra-4.dir/extra-4.c.obj: C_COMPILER__extra-4_unscanned_Debug E$:/codes/cpl-exercise/extra/extra-4.c || cmake_object_order_depends_target_extra-4
+  DEP_FILE = extra\CMakeFiles\extra-4.dir\extra-4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = extra\CMakeFiles\extra-4.dir
+  OBJECT_FILE_DIR = extra\CMakeFiles\extra-4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extra-4
+
+
+#############################################
+# Link the executable extra\extra-4.exe
+
+build extra/extra-4.exe: C_EXECUTABLE_LINKER__extra-4_Debug extra/CMakeFiles/extra-4.dir/extra-4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = extra\CMakeFiles\extra-4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = extra\extra-4.exe
+  TARGET_IMPLIB = extra\libextra-4.dll.a
+  TARGET_PDB = extra-4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target extra-5
+
+
+#############################################
+# Order-only phony target for extra-5
+
+build cmake_object_order_depends_target_extra-5: phony || extra/CMakeFiles/extra-5.dir
+
+build extra/CMakeFiles/extra-5.dir/extra-5.c.obj: C_COMPILER__extra-5_unscanned_Debug E$:/codes/cpl-exercise/extra/extra-5.c || cmake_object_order_depends_target_extra-5
+  DEP_FILE = extra\CMakeFiles\extra-5.dir\extra-5.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = extra\CMakeFiles\extra-5.dir
+  OBJECT_FILE_DIR = extra\CMakeFiles\extra-5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extra-5
+
+
+#############################################
+# Link the executable extra\extra-5.exe
+
+build extra/extra-5.exe: C_EXECUTABLE_LINKER__extra-5_Debug extra/CMakeFiles/extra-5.dir/extra-5.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = extra\CMakeFiles\extra-5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = extra\extra-5.exe
+  TARGET_IMPLIB = extra\libextra-5.dll.a
+  TARGET_PDB = extra-5.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -374,7 +567,315 @@ build extra/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build extra/rebuild_cache: phony extra/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/codes/cpl-exercise/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target single
+
+
+#############################################
+# Order-only phony target for single
+
+build cmake_object_order_depends_target_single: phony || exam/CMakeFiles/single.dir
+
+build exam/CMakeFiles/single.dir/single.c.obj: C_COMPILER__single_unscanned_Debug E$:/codes/cpl-exercise/exam/single.c || cmake_object_order_depends_target_single
+  DEP_FILE = exam\CMakeFiles\single.dir\single.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = exam\CMakeFiles\single.dir
+  OBJECT_FILE_DIR = exam\CMakeFiles\single.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target single
+
+
+#############################################
+# Link the executable exam\single.exe
+
+build exam/single.exe: C_EXECUTABLE_LINKER__single_Debug exam/CMakeFiles/single.dir/single.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = exam\CMakeFiles\single.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exam\single.exe
+  TARGET_IMPLIB = exam\libsingle.dll.a
+  TARGET_PDB = single.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target factorial
+
+
+#############################################
+# Order-only phony target for factorial
+
+build cmake_object_order_depends_target_factorial: phony || exam/CMakeFiles/factorial.dir
+
+build exam/CMakeFiles/factorial.dir/factorial.c.obj: C_COMPILER__factorial_unscanned_Debug E$:/codes/cpl-exercise/exam/factorial.c || cmake_object_order_depends_target_factorial
+  DEP_FILE = exam\CMakeFiles\factorial.dir\factorial.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = exam\CMakeFiles\factorial.dir
+  OBJECT_FILE_DIR = exam\CMakeFiles\factorial.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target factorial
+
+
+#############################################
+# Link the executable exam\factorial.exe
+
+build exam/factorial.exe: C_EXECUTABLE_LINKER__factorial_Debug exam/CMakeFiles/factorial.dir/factorial.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = exam\CMakeFiles\factorial.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exam\factorial.exe
+  TARGET_IMPLIB = exam\libfactorial.dll.a
+  TARGET_PDB = factorial.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target b-ternary-2
+
+
+#############################################
+# Order-only phony target for b-ternary-2
+
+build cmake_object_order_depends_target_b-ternary-2: phony || exam/CMakeFiles/b-ternary-2.dir
+
+build exam/CMakeFiles/b-ternary-2.dir/b-ternary-2.c.obj: C_COMPILER__b-ternary-2_unscanned_Debug E$:/codes/cpl-exercise/exam/b-ternary-2.c || cmake_object_order_depends_target_b-ternary-2
+  DEP_FILE = exam\CMakeFiles\b-ternary-2.dir\b-ternary-2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = exam\CMakeFiles\b-ternary-2.dir
+  OBJECT_FILE_DIR = exam\CMakeFiles\b-ternary-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target b-ternary-2
+
+
+#############################################
+# Link the executable exam\b-ternary-2.exe
+
+build exam/b-ternary-2.exe: C_EXECUTABLE_LINKER__b-ternary-2_Debug exam/CMakeFiles/b-ternary-2.dir/b-ternary-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = exam\CMakeFiles\b-ternary-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exam\b-ternary-2.exe
+  TARGET_IMPLIB = exam\libb-ternary-2.dll.a
+  TARGET_PDB = b-ternary-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target jojo
+
+
+#############################################
+# Order-only phony target for jojo
+
+build cmake_object_order_depends_target_jojo: phony || exam/CMakeFiles/jojo.dir
+
+build exam/CMakeFiles/jojo.dir/jojo.c.obj: C_COMPILER__jojo_unscanned_Debug E$:/codes/cpl-exercise/exam/jojo.c || cmake_object_order_depends_target_jojo
+  DEP_FILE = exam\CMakeFiles\jojo.dir\jojo.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = exam\CMakeFiles\jojo.dir
+  OBJECT_FILE_DIR = exam\CMakeFiles\jojo.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target jojo
+
+
+#############################################
+# Link the executable exam\jojo.exe
+
+build exam/jojo.exe: C_EXECUTABLE_LINKER__jojo_Debug exam/CMakeFiles/jojo.dir/jojo.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = exam\CMakeFiles\jojo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exam\jojo.exe
+  TARGET_IMPLIB = exam\libjojo.dll.a
+  TARGET_PDB = jojo.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target quick-sort
+
+
+#############################################
+# Order-only phony target for quick-sort
+
+build cmake_object_order_depends_target_quick-sort: phony || exam/CMakeFiles/quick-sort.dir
+
+build exam/CMakeFiles/quick-sort.dir/quick-sort.c.obj: C_COMPILER__quick-sort_unscanned_Debug E$:/codes/cpl-exercise/exam/quick-sort.c || cmake_object_order_depends_target_quick-sort
+  DEP_FILE = exam\CMakeFiles\quick-sort.dir\quick-sort.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = exam\CMakeFiles\quick-sort.dir
+  OBJECT_FILE_DIR = exam\CMakeFiles\quick-sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target quick-sort
+
+
+#############################################
+# Link the executable exam\quick-sort.exe
+
+build exam/quick-sort.exe: C_EXECUTABLE_LINKER__quick-sort_Debug exam/CMakeFiles/quick-sort.dir/quick-sort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = exam\CMakeFiles\quick-sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exam\quick-sort.exe
+  TARGET_IMPLIB = exam\libquick-sort.dll.a
+  TARGET_PDB = quick-sort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target decimal
+
+
+#############################################
+# Order-only phony target for decimal
+
+build cmake_object_order_depends_target_decimal: phony || exam/CMakeFiles/decimal.dir
+
+build exam/CMakeFiles/decimal.dir/decimal.c.obj: C_COMPILER__decimal_unscanned_Debug E$:/codes/cpl-exercise/exam/decimal.c || cmake_object_order_depends_target_decimal
+  DEP_FILE = exam\CMakeFiles\decimal.dir\decimal.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = exam\CMakeFiles\decimal.dir
+  OBJECT_FILE_DIR = exam\CMakeFiles\decimal.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target decimal
+
+
+#############################################
+# Link the executable exam\decimal.exe
+
+build exam/decimal.exe: C_EXECUTABLE_LINKER__decimal_Debug exam/CMakeFiles/decimal.dir/decimal.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = exam\CMakeFiles\decimal.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exam\decimal.exe
+  TARGET_IMPLIB = exam\libdecimal.dll.a
+  TARGET_PDB = decimal.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target tictactoe
+
+
+#############################################
+# Order-only phony target for tictactoe
+
+build cmake_object_order_depends_target_tictactoe: phony || exam/CMakeFiles/tictactoe.dir
+
+build exam/CMakeFiles/tictactoe.dir/tictactoe.c.obj: C_COMPILER__tictactoe_unscanned_Debug E$:/codes/cpl-exercise/exam/tictactoe.c || cmake_object_order_depends_target_tictactoe
+  DEP_FILE = exam\CMakeFiles\tictactoe.dir\tictactoe.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = exam\CMakeFiles\tictactoe.dir
+  OBJECT_FILE_DIR = exam\CMakeFiles\tictactoe.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tictactoe
+
+
+#############################################
+# Link the executable exam\tictactoe.exe
+
+build exam/tictactoe.exe: C_EXECUTABLE_LINKER__tictactoe_Debug exam/CMakeFiles/tictactoe.dir/tictactoe.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = exam\CMakeFiles\tictactoe.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exam\tictactoe.exe
+  TARGET_IMPLIB = exam\libtictactoe.dll.a
+  TARGET_PDB = tictactoe.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Bye-JonaBell
+
+
+#############################################
+# Order-only phony target for Bye-JonaBell
+
+build cmake_object_order_depends_target_Bye-JonaBell: phony || exam/CMakeFiles/Bye-JonaBell.dir
+
+build exam/CMakeFiles/Bye-JonaBell.dir/Bye-JonaBell.c.obj: C_COMPILER__Bye-JonaBell_unscanned_Debug E$:/codes/cpl-exercise/exam/Bye-JonaBell.c || cmake_object_order_depends_target_Bye-JonaBell
+  DEP_FILE = exam\CMakeFiles\Bye-JonaBell.dir\Bye-JonaBell.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = exam\CMakeFiles\Bye-JonaBell.dir
+  OBJECT_FILE_DIR = exam\CMakeFiles\Bye-JonaBell.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Bye-JonaBell
+
+
+#############################################
+# Link the executable exam\Bye-JonaBell.exe
+
+build exam/Bye-JonaBell.exe: C_EXECUTABLE_LINKER__Bye-JonaBell_Debug exam/CMakeFiles/Bye-JonaBell.dir/Bye-JonaBell.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = exam\CMakeFiles\Bye-JonaBell.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exam\Bye-JonaBell.exe
+  TARGET_IMPLIB = exam\libBye-JonaBell.dll.a
+  TARGET_PDB = Bye-JonaBell.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build exam/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-exercise\cmake-build-debug\exam && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build exam/edit_cache: phony exam/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build exam/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-exercise\cmake-build-debug\exam && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\codes\cpl-exercise -BE:\codes\cpl-exercise\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build exam/rebuild_cache: phony exam/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build Bye-JonaBell: phony exam/Bye-JonaBell.exe
+
+build Bye-JonaBell.exe: phony exam/Bye-JonaBell.exe
+
+build array-2: phony exercise-3/array-2.exe
+
+build array-2.exe: phony exercise-3/array-2.exe
+
+build b-ternary-2: phony exam/b-ternary-2.exe
+
+build b-ternary-2.exe: phony exam/b-ternary-2.exe
+
+build decimal: phony exam/decimal.exe
+
+build decimal.exe: phony exam/decimal.exe
 
 build dweight: phony exercise-1/dweight.exe
 
@@ -384,9 +885,33 @@ build extra-1: phony extra/extra-1.exe
 
 build extra-1.exe: phony extra/extra-1.exe
 
+build extra-2: phony extra/extra-2.exe
+
+build extra-2.exe: phony extra/extra-2.exe
+
+build extra-3: phony extra/extra-3.exe
+
+build extra-3.exe: phony extra/extra-3.exe
+
+build extra-4: phony extra/extra-4.exe
+
+build extra-4.exe: phony extra/extra-4.exe
+
+build extra-5: phony extra/extra-5.exe
+
+build extra-5.exe: phony extra/extra-5.exe
+
+build factorial: phony exam/factorial.exe
+
+build factorial.exe: phony exam/factorial.exe
+
 build game: phony exercise-2/game.exe
 
 build game.exe: phony exercise-2/game.exe
+
+build jojo: phony exam/jojo.exe
+
+build jojo.exe: phony exam/jojo.exe
 
 build num: phony num/num.exe
 
@@ -395,6 +920,18 @@ build num.exe: phony num/num.exe
 build pun: phony exercise-1/pun.exe
 
 build pun.exe: phony exercise-1/pun.exe
+
+build quick-sort: phony exam/quick-sort.exe
+
+build quick-sort.exe: phony exam/quick-sort.exe
+
+build single: phony exam/single.exe
+
+build single.exe: phony exam/single.exe
+
+build tictactoe: phony exam/tictactoe.exe
+
+build tictactoe.exe: phony exam/tictactoe.exe
 
 build up-or-down: phony exercise-2/up-or-down.exe
 
@@ -408,7 +945,14 @@ build up-or-down.exe: phony exercise-2/up-or-down.exe
 #############################################
 # Folder: E:/codes/cpl-exercise/cmake-build-debug
 
-build all: phony exercise-1/all exercise-2/all num/all extra/all
+build all: phony exercise-1/all exercise-2/all exercise-3/all num/all extra/all exam/all
+
+# =============================================================================
+
+#############################################
+# Folder: E:/codes/cpl-exercise/cmake-build-debug/exam
+
+build exam/all: phony exam/single.exe exam/factorial.exe exam/b-ternary-2.exe exam/jojo.exe exam/quick-sort.exe exam/decimal.exe exam/tictactoe.exe exam/Bye-JonaBell.exe
 
 # =============================================================================
 
@@ -427,9 +971,16 @@ build exercise-2/all: phony exercise-2/game.exe exercise-2/up-or-down.exe
 # =============================================================================
 
 #############################################
+# Folder: E:/codes/cpl-exercise/cmake-build-debug/exercise-3
+
+build exercise-3/all: phony exercise-3/array-2.exe
+
+# =============================================================================
+
+#############################################
 # Folder: E:/codes/cpl-exercise/cmake-build-debug/extra
 
-build extra/all: phony extra/extra-1.exe
+build extra/all: phony extra/extra-1.exe extra/extra-2.exe extra/extra-3.exe extra/extra-4.exe extra/extra-5.exe
 
 # =============================================================================
 
@@ -445,14 +996,14 @@ build num/all: phony num/num.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-exercise/CMakeLists.txt E$:/codes/cpl-exercise/exercise-1/CMakeLists.txt E$:/codes/cpl-exercise/exercise-2/CMakeLists.txt E$:/codes/cpl-exercise/extra/CMakeLists.txt E$:/codes/cpl-exercise/num/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-exercise/CMakeLists.txt E$:/codes/cpl-exercise/exam/CMakeLists.txt E$:/codes/cpl-exercise/exercise-1/CMakeLists.txt E$:/codes/cpl-exercise/exercise-2/CMakeLists.txt E$:/codes/cpl-exercise/exercise-3/CMakeLists.txt E$:/codes/cpl-exercise/extra/CMakeLists.txt E$:/codes/cpl-exercise/num/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-exercise/CMakeLists.txt E$:/codes/cpl-exercise/exercise-1/CMakeLists.txt E$:/codes/cpl-exercise/exercise-2/CMakeLists.txt E$:/codes/cpl-exercise/extra/CMakeLists.txt E$:/codes/cpl-exercise/num/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-exercise/CMakeLists.txt E$:/codes/cpl-exercise/exam/CMakeLists.txt E$:/codes/cpl-exercise/exercise-1/CMakeLists.txt E$:/codes/cpl-exercise/exercise-2/CMakeLists.txt E$:/codes/cpl-exercise/exercise-3/CMakeLists.txt E$:/codes/cpl-exercise/extra/CMakeLists.txt E$:/codes/cpl-exercise/num/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################
